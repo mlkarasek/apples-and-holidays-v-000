@@ -28,8 +28,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
   holiday_supplies = {
   :winter => {
-    :christmas => ["Lights", "Wreath"],:supply [],
-    :new_years => ["Party Hats"], :supply []
+    :christmas => ["Lights", "Wreath"],:supply {},
+    :new_years => ["Party Hats"], :supply {}
   },
   :summer => {
     :fourth_of_july => ["Fireworks", "BBQ"]
